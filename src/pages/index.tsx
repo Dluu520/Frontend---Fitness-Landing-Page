@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import CustomerReview from "./components/CustomerReview";
 import ServiceDetail from "./components/Section/ServiceDetail";
 import AdvertisedOn from "./components/Section/AdvertisedOn";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,11 @@ export default function Home() {
     <main
       className={`flex flex-col justify-center items-center w-full  ${inter.className}`}
     >
+      <Head>
+        <title>East Star - Personal Trainer</title>
+        <meta name="description" content="Personal Landing Page" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Hero title={title} message={message} />
       <About />
       <AdvertisedOn />
