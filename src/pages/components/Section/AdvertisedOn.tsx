@@ -19,7 +19,7 @@ const AdvertisedOn = () => {
           the health hive
         </h1>
       </div>
-      <div className="flex justify-center items-center text-2xl font-light"></div>
+      {/* <div className="flex justify-center items-center text-2xl font-light"></div> */}
     </div>
   );
 };

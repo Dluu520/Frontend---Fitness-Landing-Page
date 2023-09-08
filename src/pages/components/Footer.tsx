@@ -17,7 +17,7 @@ const Footer = () => {
           to help you reach your fitness peak.
         </p>
         <Link className="hover:no-underline underline" href="/">
-          Blog / Website Link
+          East Star Blog
         </Link>
       </div>
       <div className="flex flex-col gap-5">

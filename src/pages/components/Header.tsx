@@ -10,7 +10,7 @@ const Header = (props: HeaderProps) => {
     <div className="relative flex flex-col">
       <TrialRun />
       <div className="hidden sm:flex justify-between p-4 bg-black text-white">
-        <div className="text-2xl sm:text-4xl">Personal Trainer</div>
+        <div className="text-2xl sm:text-4xl">East Star</div>
         <div className="flex gap-4 items-center justify-center">
           <button className="text-2xl hover:text-blue-500 ">Home</button>
           <button className="text-2xl hover:text-blue-500 ">
@@ -27,7 +27,7 @@ const Header = (props: HeaderProps) => {
         <button className="" onClick={MenuClick}>
           {openMenu ? "Open" : "Close"}
         </button>
-        <div className="text-2xl">Personal Trainer</div>
+        <div className="text-2xl">East Star</div>
       </div>
       <div
         className={

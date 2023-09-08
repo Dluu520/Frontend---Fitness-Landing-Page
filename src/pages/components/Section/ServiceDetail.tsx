@@ -52,7 +52,7 @@ const ServiceDetail = () => {
         </h1>
       </div>
       <p className="text-2xl font-light text-center">
-        At StartFit, we believe in making fitness affordable. Enjoy high-value
+        At East Star, we believe in making fitness affordable. Enjoy high-value
         training experiences at incredibly competitive prices.
       </p>
       <div className="flex flex-col sm:flex-row gap-5">

@@ -10,7 +10,7 @@ const CallToAction = () => {
         </h1>
         <h2 className="text-xl">
           There has never been a better time than right now. Dive into your
-          fitness journey with StartFit today.
+          fitness journey with East Star today.
         </h2>
         <button className="border bg-yellow-500 rounded-full px-[2rem] py-[1rem] text-black font-bold hover:bg-yellow-300">
           Get Started
