@@ -8,7 +8,7 @@ const About = () => {
         <h1 className="text-4xl font-bold ">Why choose East Star?</h1>
         <h1 className="text-4xl font-bold ">Discover our unique edge</h1>
         <p className="text-2xl font-light text-center">
-          It’s our commitment to your health. We deliver effective, efficient
+          It's our commitment to your health. We deliver effective, efficient
           workouts paired with nutritional guidance to help you reach your
           fitness peak.
         </p>
@@ -31,7 +31,7 @@ const About = () => {
         <div className="p-5 flex flex-col gap-5 ">
           <h3 className="text-2xl font-semibold ">Supportive Community</h3>
           <p className=" font-light">
-            You’ll train alongside like-minded people who encourage and inspire
+            You'll train alongside like-minded people who encourage and inspire
             each other towards their fitness goals.
           </p>
         </div>
