@@ -58,7 +58,7 @@ const ServiceDetail = () => {
       <div className="flex flex-col sm:flex-row gap-5">
         {PricingSheet.map((eachItem, index) => {
           return (
-            <div>
+            <div key={index}>
               <div className="flex flex-col gap-4 border rounded-lg border-black p-5">
                 <h2 className="text-2xl font-bold">{eachItem.title}</h2>
                 <p className="text-start font-light">{eachItem.desription}</p>
@@ -69,7 +69,7 @@ const ServiceDetail = () => {
               </div>
               <div className="flex flex-col gap-2 p-5">
                 {eachItem.benefits.map((item, index) => (
-                  <div>+{item}</div>
+                  <div key={index}>+{item}</div>
                 ))}
               </div>
             </div>

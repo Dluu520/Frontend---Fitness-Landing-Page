@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram, BsTiktok } from "react-icons/bs";
 const Footer = () => {
@@ -15,9 +16,9 @@ const Footer = () => {
           deliver effective, efficient workouts paired with nutritional guidance
           to help you reach your fitness peak.
         </p>
-        <a className="hover:no-underline underline" href="/">
+        <Link className="hover:no-underline underline" href="/">
           Blog / Website Link
-        </a>
+        </Link>
       </div>
       <div className="flex flex-col gap-5">
         <h1 className="text-2xl font-bold">Get Updated</h1>

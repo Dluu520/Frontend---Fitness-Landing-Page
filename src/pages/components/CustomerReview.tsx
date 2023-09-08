@@ -15,13 +15,13 @@ const ReviewList = [
 const CustomerReview = () => {
   return (
     <div className="m-10 flex flex-col sm:flex-row gap-10 p-10 bg-yellow-300 w-full">
-      <h3 className="text-2xl font-sans font-semibold">What People Say</h3>{" "}
+      <h3 className="text-2xl font-sans font-semibold">What People Say</h3>
       {ReviewList.map((eachReview, index) => {
         return (
           <div className="flex flex-col gap-3" key={index}>
-            <h1>"{eachReview.review}"</h1>
-            <div className="flex ">
-              <div className="relative flex  rounded-full m-10 text-center justify-center items-center ">
+            <h1>'{eachReview.review}'</h1>
+            <div className="flex">
+              <div className="relative flex rounded-full m-10 text-center justify-center items-center">
                 {/* {eachReview.picture} */}
                 <Image
                   alt="/"
