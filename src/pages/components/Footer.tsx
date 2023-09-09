@@ -11,8 +11,8 @@ const Footer = () => {
         </div>
         <p>
           Unlock your potential and redefine your limits with us. Our trainers
-          tailor workouts to your ability, ensuring you’re fit today and
-          undeniably stronger tomorrow. It’s our commitment to your health. We
+          tailor workouts to your ability, ensuring you're fit today and
+          undeniably stronger tomorrow. It's our commitment to your health. We
           deliver effective, efficient workouts paired with nutritional guidance
           to help you reach your fitness peak.
         </p>
