@@ -7,10 +7,10 @@ const Header = (props: HeaderProps) => {
     setOpenMenu(!openMenu);
   };
   return (
-    <div className="relative flex flex-col w-full ">
+    <div className="relative flex flex-col w-full m-0 p-0">
       <TrialRun />
       {/*Desktop Menu */}
-      <div className="hidden sm:flex justify-between p-4 bg-black text-white">
+      <div className=" hidden sm:flex justify-between p-4 bg-black text-white">
         <div className="text-2xl sm:text-4xl">East Star</div>
         <div className="flex gap-4 items-center justify-center">
           <button className="text-2xl hover:text-blue-500 ">Home</button>
@@ -24,7 +24,7 @@ const Header = (props: HeaderProps) => {
         </div>
       </div>
       {/* Mobile Menu */}
-      <div className="sticky inset-0 flex flex-row-reverse sm:hidden justify-between p-4 bg-black text-white">
+      <div className="sticky z-[9999] top-0 left-0 right-0 flex flex-row-reverse sm:hidden justify-between p-4 bg-black text-white">
         <button className="" onClick={MenuClick}>
           {openMenu ? "Open" : "Close"}
         </button>

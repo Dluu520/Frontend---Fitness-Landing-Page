@@ -39,7 +39,7 @@ const Footer = () => {
             <BsTiktok />
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row h-[2em] gap-2  ">
+        <div className="flex flex-col md:flex-row h-[2em] gap-2  ">
           <input
             className="sm:rounded-tl-full sm:rounded-bl-full ps-2 text-black "
             placeholder="Type your email..."
