@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div
       id="footer"
-      className="h-[50%] bg-black text-white flex flex-col sm:flex-row justify-center items-start m-0"
+      className="h-[50%] bg-black text-white flex flex-col md:sflex-row justify-center items-start m-0"
     >
       <div className="flex flex-col  p-10 gap-5 m-2 sm:m-10">
         <div>
