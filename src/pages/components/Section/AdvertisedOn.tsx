@@ -2,7 +2,7 @@ import React from "react";
 
 const AdvertisedOn = () => {
   return (
-    <div className="bg-black w-full text-white flex flex-col justify-center items-center p-10">
+    <div className="bg-black w-full text-white flex flex-col justify-center items-center p-10 sm:pt-[10dvh] sm:pb-[10dvh]">
       <h4 className="text-center text-gray-400 font-bold p-5 font-mono">
         AS SEEN ON
       </h4>

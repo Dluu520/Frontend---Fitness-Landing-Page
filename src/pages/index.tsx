@@ -19,7 +19,7 @@ export default function Home() {
     "Unlock your true potential. Our Trainers will be with you every step of the way to ensure you reach your best version you have in mind.";
   return (
     <main
-      className={`flex flex-col justify-center items-center w-full  ${inter.className}`}
+      className={`flex flex-col justify-center items-center w-full m-0   ${inter.className}`}
     >
       <Head>
         <title>East Star - Personal Trainer</title>
@@ -29,8 +29,8 @@ export default function Home() {
       <Hero title={title} message={message} />
       <About />
       <AdvertisedOn />
-      <CustomerReview />
       <ServiceDetail />
+      <CustomerReview />
       <CallToAction />
       <Footer />
     </main>
