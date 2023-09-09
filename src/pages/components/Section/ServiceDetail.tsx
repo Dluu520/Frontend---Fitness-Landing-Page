@@ -44,7 +44,10 @@ const PricingSheet = [
 
 const ServiceDetail = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-10 m-10 bg-white">
+    <div
+      id="pricing"
+      className="flex flex-col justify-center items-center gap-10 m-10 bg-white "
+    >
       <div className="text-center flex flex-col gap-4 ">
         <h3 className="font-bold text-gray-500 ">SIMPLE PRICING</h3>
         <h1 className="text-3xl sm:text-4xl font-bold">

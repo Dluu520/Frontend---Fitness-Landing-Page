@@ -3,7 +3,10 @@ import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram, BsTiktok } from "react-icons/bs";
 const Footer = () => {
   return (
-    <div className="h-[50%] bg-black text-white flex flex-col sm:flex-row justify-center items-start m-0">
+    <div
+      id="footer"
+      className="h-[50%] bg-black text-white flex flex-col sm:flex-row justify-center items-start m-0"
+    >
       <div className="flex flex-col  p-10 gap-5 m-2 sm:m-10">
         <div>
           <h1 className="text-2xl font-bold">Start Now</h1>
@@ -26,22 +29,22 @@ const Footer = () => {
           Stay ahead in your fitness journey with our exclusive tips and offers.
         </p>
         <div className="flex gap-5">
-          <div className="rounded-full bg-white/10 w-fit hover:cursor-pointer hover:scale-110  p-1 ">
+          <div className="rounded-full bg-white/10 w-fit hover:cursor-pointer hover:scale-150  p-1 ">
             <BsFacebook />
           </div>
-          <div className="rounded-full bg-white/10 w-fit hover:cursor-pointer hover:scale-110  p-1 ">
+          <div className="rounded-full bg-white/10 w-fit hover:cursor-pointer hover:scale-150   p-1 ">
             <BsTwitter />
           </div>
-          <div className="rounded-full bg-white/10 w-fit hover:cursor-pointer hover:scale-110  p-1 ">
+          <div className="rounded-full bg-white/10 w-fit hover:cursor-pointer hover:scale-150   p-1 ">
             <BsInstagram />
           </div>
-          <div className="rounded-full bg-white/10 w-fit hover:cursor-pointer hover:scale-110  p-1 ">
+          <div className="rounded-full bg-white/10 w-fit hover:cursor-pointer hover:scale-150   p-1 ">
             <BsTiktok />
           </div>
         </div>
         <div className="flex flex-col md:flex-row h-[2em] gap-2  ">
           <input
-            className="sm:rounded-tl-full sm:rounded-bl-full ps-2 text-black "
+            className="rounded-full sm:rounded-tl-full sm:rounded-bl-full ps-2 text-black "
             placeholder="Type your email..."
           ></input>
           <button className="rounded-full sm:rounded-tr-full sm:rounded-br-full px-2 bg-yellow-500 text-black font-light">

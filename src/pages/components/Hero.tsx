@@ -6,7 +6,10 @@ type HeroProps = {
 };
 const Hero = (props: HeroProps) => {
   return (
-    <div className="relative hero h-screen  w-full flex flex-col sm:flex-row justify-center">
+    <div
+      id="home"
+      className="relative hero h-screen  w-full flex flex-col sm:flex-row justify-center"
+    >
       <div className="flex items-center justify-center  z-[10] rounded-lg ">
         <div className="text-white flex items-center justify-center flex-col gap-10 w-[60%]">
           <h1 className="text-5xl">{props.title}</h1>
