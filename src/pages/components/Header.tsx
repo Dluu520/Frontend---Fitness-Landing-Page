@@ -7,7 +7,7 @@ const Header = (props: HeaderProps) => {
     setOpenMenu(!openMenu);
   };
   return (
-    <div className="relative flex flex-col w-full m-0 p-0">
+    <div className="relative flex flex-col w-full m-0 p-0 bg-white">
       <TrialRun />
       {/*Desktop Menu */}
       <div className=" hidden sm:flex justify-between p-4 bg-black text-white">
