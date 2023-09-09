@@ -3,8 +3,8 @@ import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram, BsTiktok } from "react-icons/bs";
 const Footer = () => {
   return (
-    <div className="h-[50%] w-full bg-black text-white flex flex-col sm:flex-row justify-center items-start p-10 gap-10">
-      <div className="flex flex-col flex-grow gap-5">
+    <div className="h-[50%] w-full bg-black text-white flex flex-col sm:flex-row justify-center items-start m-0">
+      <div className="flex flex-col flex-grow  p-10 gap-5 m-2 sm:m-10">
         <div>
           <h1 className="text-2xl font-bold">Start Now</h1>
           <p>Personal fitness training Service</p>
@@ -20,7 +20,7 @@ const Footer = () => {
           East Star Blog
         </Link>
       </div>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col p-10 gap-5 m-2 sm:m-10">
         <h1 className="text-2xl font-bold">Get Updated</h1>
         <p>
           Stay ahead in your fitness journey with our exclusive tips and offers.
@@ -39,12 +39,12 @@ const Footer = () => {
             <BsTiktok />
           </div>
         </div>
-        <div className="flex">
+        <div className="flex items-start justify-start m-0 p-0">
           <input
-            className="rounded-tl-full rounded-bl-full p-2 ps-5 text-black "
+            className="rounded-tl-full rounded-bl-full  p-2 text-black "
             placeholder="Type your email..."
           ></input>
-          <button className="border rounded-tr-full rounded-br-full p-2 bg-yellow-500 text-black font-light">
+          <button className=" rounded-tr-full rounded-br-full p-2  bg-yellow-500 text-black font-light">
             Subscribe
           </button>
         </div>
