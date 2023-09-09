@@ -47,11 +47,11 @@ const ServiceDetail = () => {
     <div className="flex flex-col justify-center items-center gap-10 m-10 bg-white">
       <div className="text-center flex flex-col gap-4 ">
         <h3 className="font-bold text-gray-500 ">SIMPLE PRICING</h3>
-        <h1 className="text-4xl sm:text-5xl font-bold">
+        <h1 className="text-3xl sm:text-4xl font-bold">
           Mininmal investment, Maximum results
         </h1>
       </div>
-      <p className="text-2xl font-light text-center">
+      <p className="text-xl sm:text-2xl font-light text-center">
         At East Star, we believe in making fitness affordable. Enjoy high-value
         training experiences at incredibly competitive prices.
       </p>

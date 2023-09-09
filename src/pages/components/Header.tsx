@@ -7,7 +7,7 @@ const Header = (props: HeaderProps) => {
     setOpenMenu(!openMenu);
   };
   return (
-    <div className="relative flex flex-col">
+    <div className="relative flex flex-col w-full ">
       <TrialRun />
       {/*Desktop Menu */}
       <div className="hidden sm:flex justify-between p-4 bg-black text-white">
@@ -51,7 +51,7 @@ const Header = (props: HeaderProps) => {
         <button className="text-2xl hover:text-blue-500 p-4">Account</button>
       </div>
       {openMenu ? (
-        <main>{props.children}</main>
+        <main className="w-[100%] m-0 p-0">{props.children}</main>
       ) : (
         <div className="h-screen bg-black"></div>
       )}

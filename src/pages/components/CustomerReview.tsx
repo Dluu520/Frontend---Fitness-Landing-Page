@@ -4,7 +4,7 @@ import React from "react";
 const ReviewList = [
   {
     firstName: "Susan",
-    lastName: "Baron",
+    lastName: "Belle",
     address: { city: "Boca Raton", state: "Florida" },
     review:
       "East Star didn't just change my workout routine, it revolutionised my entire lifestyle. I've never felt stronger, healthier or happier!",
@@ -15,12 +15,14 @@ const ReviewList = [
 const CustomerReview = () => {
   return (
     <div className=" flex flex-col sm:flex-row gap-10 p-10  bg-yellow-300 w-full justify-center items-center">
-      <h3 className="text-2xl font-sans font-semibold">What People Say</h3>
+      <h3 className="text-xl sm:text-2xl font-sans font-bold ">
+        What People Say
+      </h3>
       {ReviewList.map((eachReview, index) => {
         return (
-          <div className="flex flex-col gap-5 m-0 sm:m-20" key={index}>
-            <h1 className="text-4xl ">{eachReview.review}</h1>
-            <div className="flex gap-5">
+          <div className="flex flex-col gap-2 sm:gap-5  sm:m-10" key={index}>
+            <h1 className="text-xl sm:text-3xl">{eachReview.review}</h1>
+            <div className="flex sm:flex-row gap-2 sm:gap-5 rounded-full">
               {/* {eachReview.picture} */}
               <Image
                 alt="/"
@@ -29,8 +31,8 @@ const CustomerReview = () => {
                 height="100"
                 className={`rounded-full object-none `}
               />
-              <div className="flex flex-col justify-center items-center gap-4">
-                <h4 className="text-2xl font-semibold">
+              <div className="flex flex-col justify-center items-center ">
+                <h4 className="text-xl sm:text-2xl font-semibold">
                   {eachReview.firstName} {eachReview.lastName}
                 </h4>
                 <h5>in {eachReview.address.state}</h5>

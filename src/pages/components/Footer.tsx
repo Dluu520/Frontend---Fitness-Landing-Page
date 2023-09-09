@@ -3,8 +3,8 @@ import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram, BsTiktok } from "react-icons/bs";
 const Footer = () => {
   return (
-    <div className="h-[50%]  bg-black text-white flex flex-col sm:flex-row justify-center items-start m-0">
-      <div className="flex flex-col flex-grow  p-10 gap-5 m-2 sm:m-10">
+    <div className="h-[50%] bg-black text-white flex flex-col sm:flex-row justify-center items-start m-0">
+      <div className="flex flex-col  p-10 gap-5 m-2 sm:m-10">
         <div>
           <h1 className="text-2xl font-bold">Start Now</h1>
           <p>Personal fitness training Service</p>
@@ -39,12 +39,12 @@ const Footer = () => {
             <BsTiktok />
           </div>
         </div>
-        <div className="flex h-[2em]  ">
+        <div className="flex flex-col sm:flex-row h-[2em] gap-2  ">
           <input
-            className="rounded-tl-full rounded-bl-full ps-2 text-black "
+            className="sm:rounded-tl-full sm:rounded-bl-full ps-2 text-black "
             placeholder="Type your email..."
           ></input>
-          <button className=" rounded-tr-full rounded-br-full px-2 bg-yellow-500 text-black font-light">
+          <button className="rounded-full sm:rounded-tr-full sm:rounded-br-full px-2 bg-yellow-500 text-black font-light">
             Subscribe
           </button>
         </div>
