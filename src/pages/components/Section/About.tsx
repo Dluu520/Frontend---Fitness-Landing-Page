@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col bg-white ">
-      <div className="flex flex-col p-10 gap-5 justify-center items-center text-center sm:m-10 ">
-        <h3 className="font-bold text-gray-500">About Us</h3>
+    <div className="flex flex-col bg-white  justify-center items-center sm:p-10 sm:mx-52 ">
+      <h3 className="font-bold text-gray-500">About Us</h3>
+      <div className="flex flex-col sm:p-10 gap-5 justify-center items-center text-center sm:m-20 ">
         <h1 className="text-2xl sm:text-4xl font-bold ">
           Why choose East Star?
         </h1>

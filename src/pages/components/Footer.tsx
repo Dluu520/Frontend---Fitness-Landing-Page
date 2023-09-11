@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div
       id="footer"
-      className="h-[50%] bg-black text-white flex flex-col md:sflex-row justify-center items-start m-0"
+      className="h-[50%] bg-black text-white flex flex-col md:flex-row justify-center items-start m-0"
     >
       <div className="flex flex-col  p-10 gap-5 m-2 sm:m-10">
         <div>
@@ -22,6 +22,12 @@ const Footer = () => {
         <Link className="hover:no-underline underline" href="/">
           East Star Blog
         </Link>
+        <div className="flex gap-2">
+          <p>Contact us:</p>
+          <p className="hover:no-underline underline hover:cursor-pointer">
+            (123)-456-7890
+          </p>
+        </div>
       </div>
       <div className="flex flex-col p-10 gap-5 sm:m-10">
         <h1 className="text-2xl font-bold">Get Updated</h1>
@@ -42,7 +48,7 @@ const Footer = () => {
             <BsTiktok />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row h-[2em] gap-2  ">
+        <div className="flex flex-col md:flex-row h-[2em] gap-2 ">
           <input
             className="rounded-full sm:rounded-tl-full sm:rounded-bl-full ps-2 text-black "
             placeholder="Type your email..."

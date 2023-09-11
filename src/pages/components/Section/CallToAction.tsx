@@ -2,9 +2,9 @@ import React from "react";
 
 const CallToAction = () => {
   return (
-    <div className="relative c2a-image w-full h-[50dvh] flex ">
+    <div className="relative c2a-image w-full h-[50dvh] flex justify-center">
       {/* content */}
-      <div className="text-white z-[10] flex flex-col border border-white p-5  m-10 justify-center items-center sm:items-start gap-5 ">
+      <div className="text-white z-[10] flex flex-col border border-white p-10 m-10 justify-center items-center sm:items-start gap-5 ">
         <h1 className="text-2xl sm:text-4xl font-bold">
           Ready to ignite your fitness revolution?
         </h1>

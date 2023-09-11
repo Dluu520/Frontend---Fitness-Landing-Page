@@ -13,7 +13,9 @@ const Header = (props: HeaderProps) => {
       <TrialRun />
       {/*Desktop Menu */}
       <div className=" hidden sm:flex justify-between p-4 bg-black text-white">
-        <div className="text-2xl sm:text-4xl">East Star</div>
+        <div className="text-2xl sm:text-4xl italic font-bold font-serif">
+          East Star
+        </div>
         <div className="flex gap-6 items-center justify-center">
           <button
             onClick={() => document.getElementById("home")?.scrollIntoView()}
@@ -43,7 +45,7 @@ const Header = (props: HeaderProps) => {
         <button className="" onClick={MenuClick}>
           {openMenu ? <GiHamburgerMenu /> : <GiHamburgerMenu />}
         </button>{" "}
-        <div className="text-2xl">East Star</div>
+        <div className="text-2xl italic font-bold font-serif">East Star</div>
       </div>
 
       <div
